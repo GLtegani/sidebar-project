@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+   <!-- PRECONNECTS -->
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <!-- META -->
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>SideBar Project</title>
+   <!-- STYLES -->
+   <link rel="stylesheet" href="style.css">
+   <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+   
+   <!-- MENU BTN OPEN AREA -->
+   <header id="btn-menu-container" class="hide">
+      <button class="btn open">
+         <img src="./assets/hamburguer-menu.png" alt="menu hamburguer icon">
+      </button>
+   </header>
+
+   <!-- PAGE NAVIGATION SIDEBAR -->
+   <div id="navigation-container">
+      <div id="navigation-header">
+         <h1 class="tt-header">
+            Coding <span class="styled-txt">Addict</span>
+         </h1>
+
+         <button class="btn close">
+            <img src="./assets/close.png" alt="menu close icon">
+         </button>
+      </div>
+
+      <!-- NAVIGATION ITEMS AREA -->
+      <nav id="navigation-items-container">
+         <ul id="navigation-items">
+            <li class="item">
+               <a href="#">Home</a>
+            </li>
+            <li class="item">
+               <a href="#">About</a>
+            </li>
+            <li class="item">
+               <a href="#">Projects</a>
+            </li>
+            <li class="item">
+               <a href="#">Contact</a>
+            </li>
+         </ul>
+      </nav>
+
+      <!-- NAVIGATION SOCIAL MEDIA AREA -->
+      <nav id="navigation-social-container">
+         <ul id="navigation-social-links">
+            <li class="social">
+               <a href="https://github.com/GLtegani">
+                  <img src="./assets/github.png" alt="github logo">
+               </a>
+            </li>
+            <li class="social">
+               <a href="https://www.linkedin.com/in/gabriel-tegani">
+                  <img src="./assets/linkedin.png" alt="linkedin logo">
+               </a>
+            </li>
+         </ul>
+      </nav>
+
+   </div>
+
+   <!-- SCRIPTS -->
+   <script src="./scripts/main.js" type="module"></script>
+</body>
+</html>

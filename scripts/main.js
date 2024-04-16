@@ -1,2 +1,2 @@
 // IMPORTS
-import { showNav } from "./navContainer.js";
+import { showContent } from "./navContainer.js";

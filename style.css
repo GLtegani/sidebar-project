@@ -30,10 +30,6 @@ body {
    display: block;
 }
 
-.show-flex {
-   display: flex;
-}
-
 .btn {
    background-color: inherit;
    border: none;
@@ -42,6 +38,11 @@ body {
 
 img {
    width: clamp(3rem, 4.2rem, 8vw);
+   transition: 0.2s;
+}
+
+img:hover {
+   transform: scale(1.07);
 }
 
 h1 {
@@ -62,6 +63,7 @@ a {
 
 /* MENU BTN OPEN AREA */
 #btn-menu-container {
+   display: flex;
    align-items: center;
    justify-content: space-between;
    height: 5.5rem;
@@ -75,10 +77,12 @@ a {
    background-color: var(--white);
    width: 42%;
    height: 100vh;
+   display: none;
    position: fixed;
    flex-direction: column;
    justify-content: space-between;
    z-index: 1;
+   transition: 0.2s;
 }
 
 /* NAVIGATION HEADER */
